@@ -1,0 +1,27 @@
+
+====== LIST DAFTAR HP ======
+
+merek = IP 11
+internal = 64 GB
+garansi = 1 tahun
+harga = 7000000
+
+merek = IP 12
+internal = 64 GB
+garansi = 1 tahun
+harga = 10500000
+
+merek = IP 13
+internal = 64 GB
+garansi = 1 tahun
+harga = 12500000
+
+merek = IP 14
+internal = 64 GB
+garansi = 1 tahun
+harga = 19000000
+
+merek = IP 15
+internal = 64 GB
+garansi = 1 tahun
+harga = 20000000

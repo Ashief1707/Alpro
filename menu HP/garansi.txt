@@ -1,0 +1,11 @@
+Merek : samsung
+Tanggal Sekarang : 12 10 2000
+Kerusakan : lahyar
+Status : ganti
+
+
+Merek : ip 11
+Tanggal Sekarang : 12 1 2021
+Kerusakan : baterai
+Status : service
+

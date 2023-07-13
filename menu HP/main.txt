@@ -1,0 +1,129 @@
+//judul : ADT Hp
+// Muhammad Ashief
+
+#include <iostream>
+#include "hp.h"
+
+using namespace std;
+
+int main()
+{   //Kamus Global :
+    int pilihan;
+    int hp;
+    char ulangseri,ulangmenu;
+
+    do { //looping permilihan menu
+    //Deskripsi :
+    cout << "======== TOKO HP XIAOMI ========" << endl;
+    cout << " " << endl;
+    cout << "Pilih menu : "  << endl;
+    cout << "1. Lihat data HP" << endl;
+    cout << "2. Cari HP berdasarkan serinya" <<endl;
+    cout << "3. HP rekomendasi yang termurah ke mahal (semua seri)" << endl;
+    cout << "4. HP dengan chipset flagship dari yang termurah (semua seri)" << endl;
+    cout << " " << endl;
+    cout << "Masukkan Pilihan : ";
+    cin >> pilihan;
+    cout << " " << endl;
+
+    //switch case pemilihan menu
+    switch(pilihan) {
+
+        do { //looping jika user ingin mengulangi memilih seri hp
+
+        //switch case pemilihan seri hp
+        case 1 :
+            cout << "Seri HP Xiaomi" << endl;
+            cout << "1. MI" << endl;
+            cout << "2. Poco" << endl;
+            cout << "3. Redmi" << endl;
+            cout << " " << endl;
+            cout << "Masukkan Pilihan : ";
+            cin >> hp;
+            cout << " " << endl;
+
+            //menampilkan spesifikasi seri hp yang dipilih
+           switch(hp) {
+                //case MI
+            case 1 :
+                cout << "Spesifikasi : " << endl;
+                cout << "Seri MI \t Layar \t\t Chipset \t Baterai \t Harga" << endl;
+                cout << "--------------------------------------------------------------------------" << endl;
+
+                cout << "MI 10 \t\t IPS 144Hz \t SD 870(5G) \t 5000 mAh \t 5.000.000" << endl;
+
+                cout << "MI 10T \t\t IPS 144Hz \t SD 870(5G) \t 5000 mAh \t 6.000.000" << endl;
+
+                cout << "MI 11 \t\t Amoled 120Hz \t SD 888(5G) \t 5000 mAh \t 7.000.000" << endl;
+                break;
+                //Case Poco
+            case 2 :
+                cout << "Spesifikasi : " << endl;
+                cout << "Seri Poco \t Layar \t\t Chipset \t Baterai \t Harga" << endl;
+                cout << "--------------------------------------------------------------------------" << endl;
+
+                cout << "Poco F1 \t IPS 120Hz \t SD 860(5G) \t 4500 mAh \t 2.000.000" << endl;
+
+                cout << "Poco F2 \t IPS 120Hz \t SD 865(5G) \t 5000 mAh \t 2.500.000" << endl;
+
+                cout << "Poco F3 \t Amoled 120Hz \t SD 870(5G) \t 5000 mAh \t 4.000.000" << endl;
+                break;
+                //case Redmi
+            case 3 :
+                cout << "Spesifikasi : " << endl;
+                cout << "Seri Redmi \t Layar \t\t Chipset \t Baterai \t Harga" << endl;
+                cout << "--------------------------------------------------------------------------" << endl;
+
+                cout << "Redmi 10a \t IPS \t\t SD 625 \t 5000 mAh \t 1.200.000" << endl;
+
+                cout << "Redmi 10c \t IPS \t\t SD 680 \t 5000 mAh \t 1.800.000" << endl;
+
+                cout << "Redmi 10 \t IPS \t\t G 86 \t\t 5000 mAh \t 1.900.000" << endl;
+                break;
+
+            default :
+                cout << "Seri HP tidak ditemukan" << endl;
+                break;
+            }
+            //menampilkan spefikasi seri hp end
+
+            cout << " " << endl;
+
+            //jika user input y maka user akan ditampikan pemilihan seri hp
+            //jika user input n maka user akan disuruh input ingin mengulai pemilihan menu atau tidak
+            cout << "Ingin mengulangi pemilihan seri HP ? (y/n) : ";
+            cin >> ulangseri;
+            cout << " "<< endl;
+
+            //jika user menginput kecuali y/n user dpt mengulangi inputan
+            if (ulangseri != 'y' && ulangseri != 'n'){
+            cout << "Inputan tidak sesuai, ulangi input dengan benar (y/n)! : ";
+            cin >> ulangseri;
+            cout << " " << endl;
+            }
+
+            }while(ulangseri == 'Y' || ulangseri == 'y'); //perkondisian loop seri
+
+                cout << "Ingin kembali ke pilih menu (y/n) : "; //inputan ingin mengulahi pemilihan menu jika inputan y user
+                cin >> ulangmenu;                               //akan di tampilkan pilih menu jika tidak program selesai
+                cout << "" << endl;
+
+             //looping seri hp end
+
+            break;
+            //pemilihan seri hp end
+
+        //switch case searching hp
+        case 2 :
+            cout << "Searching hp" << endl;
+
+            
+
+    }
+
+    }while(ulangmenu == 'Y' || ulangmenu == 'y'); //perkondisian loop menu
+
+        cout << "===== Terima Kasih Telah Mengunjungi Toko Kami ===== " << endl;
+        //looping pemilihan menu end
+    return 0;
+}
