@@ -1,0 +1,53 @@
+
+===== Pembelian Tiket =====
+
+Nama Film         : Fast X
+Tanggal Tayang    : 17 Juli 2023
+Jam Tayang        : 18.10 WIB
+Tanggal Transaksi : 5-7-2023
+Waktu Transaksi   : 0.20 WIB 
+Harga             : 40000
+Uang Anda         : 50000
+Kembalian Anda    : 10000
+
+===== Pembelian Cemilan =====
+
+Jenis             : Minuman
+Nama              : Cola
+Tanggal Transaksi : 5-7-2023
+Waktu Transaksi   : 0.22 WIB 
+Harga             : 7000
+Uang Anda         : 10000
+Kembalian Anda    : 3000
+
+===== Pembelian Tiket =====
+
+Nama Film         : Spiderman
+Tanggal Tayang    : 11 Juli 2023
+Jam Tayang        : 15.10 WIB
+Tanggal Transaksi : 5-7-2023
+Waktu Transaksi   : 18.9 WIB 
+Harga             : 45000
+Uang Anda         : 50000
+Kembalian Anda    : 5000
+
+===== Pembelian Tiket =====
+
+Nama Film         : Spiderman
+Tanggal Tayang    : 11 Juli 2023
+Jam Tayang        : 15.10 WIB
+Tanggal Transaksi : 6-7-2023
+Waktu Transaksi   : 12.49 WIB 
+Harga             : 45000
+Uang Anda         : 500000
+Kembalian Anda    : 455000
+
+===== Pembelian Cemilan =====
+
+Jenis             : Minuman
+Nama              : Kopi
+Tanggal Transaksi : 6-7-2023
+Waktu Transaksi   : 14.51 WIB 
+Harga             : 6000
+Uang Anda         : 200000
+Kembalian Anda    : 194000
